@@ -58,3 +58,7 @@ const calculateSavings = () => {
     document.getElementById("remaining-balance").innerText = remainingBalance;
   }
 };
+
+const name = 'John';
+name.toUpperCase = () => 'JOHN';
+console.log(name.toUpperCase());
