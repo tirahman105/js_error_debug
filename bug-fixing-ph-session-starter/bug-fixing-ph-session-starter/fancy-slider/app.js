@@ -121,6 +121,7 @@ searchBtn.addEventListener('click', function () {
   const search = document.getElementById('search');
   getImages(search.value)
   sliders.length = 0;
+  search.value ='';
 })
 
 sliderBtn.addEventListener('click', function () {
