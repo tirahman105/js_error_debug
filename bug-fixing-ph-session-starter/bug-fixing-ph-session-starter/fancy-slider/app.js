@@ -50,7 +50,9 @@ const selectItem = (event, img) => {
   if (item === -1) {
     sliders.push(img);
   } else {
-    alert('Hey, Already added !')
+    // alert('Hey, Already added !')
+    sliders =sliders.filter(slider =>slider != img )
+    element.classList.remove('added');
   }
 }
 var timer
